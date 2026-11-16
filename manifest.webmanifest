@@ -1,0 +1,26 @@
+{
+  "id": "./",
+  "name": "Molly and the Midnight Map — Elevor360D",
+  "short_name": "Midnight Map",
+  "description": "Book Two of Molly’s Adventures: an illustrated fantasy mystery with a to-be-continued ending.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#10272e",
+  "theme_color": "#15383f",
+  "lang": "en-GB",
+  "icons": [
+    {
+      "src": "assets/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "assets/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}

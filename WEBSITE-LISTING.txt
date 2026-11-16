@@ -1,0 +1,24 @@
+TITLE
+Elevor360D — Molly and the Midnight Map
+
+SERIES
+Molly's Adventures — Book Two
+
+CATEGORY
+Books & Reading
+
+APP ID
+molly-midnight-map
+
+SHORT DESCRIPTION
+Molly returns to Moonflower Wood, where a charming paper fox is selling
+shortcuts and familiar paths are disappearing. Join Molly and her friends in
+an illustrated fantasy mystery with humour, heart and a cliffhanger leading
+to the next adventure. Includes 50 story pages and offline reading.
+
+PROMOTIONAL IMAGE
+Molly_Midnight_Map_Banner.jpg — 1672 x 941 pixels
+
+OPENING URL
+Use the published GitHub Pages address displayed in this new repository's
+Pages settings. Keep Book One's existing opening URL unchanged.
