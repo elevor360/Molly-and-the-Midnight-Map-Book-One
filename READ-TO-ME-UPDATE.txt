@@ -1,0 +1,1 @@
+Molly audiobook update: A prominent Read to Me button starts continuous narration, with Auto Page Turn ON by default. Upload all files to the repository root, including audio and assets folders. Open online once after uploading to update offline files. Pages without audio remain readable.

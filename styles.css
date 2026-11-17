@@ -17,3 +17,11 @@ h1{font-size:clamp(37px,4.1vw,59px);line-height:1.12;letter-spacing:-1.5px}.cove
 #audioTime{font-variant-numeric:tabular-nums;font-size:.85rem;white-space:nowrap}
 
 .auto-turn{display:flex;align-items:center;gap:.55rem;margin:.65rem 0 .1rem;font-size:.94rem;cursor:pointer}.auto-turn input{width:1.1rem;height:1.1rem;accent-color:#158d91}
+
+/* Prominent continuous audiobook controls */
+.read-to-me-feature{display:flex;flex-wrap:wrap;align-items:center;gap:10px;margin:0 0 14px;padding:12px;background:rgba(25,126,131,.12);border:2px solid #16888e;border-radius:12px}
+#readToMe{background:#126e75;color:white;border:0;border-radius:10px;padding:13px 18px;min-height:48px;font-weight:800;font-size:1rem;cursor:pointer}
+#readToMe:hover,#readToMe:focus-visible{background:#0d555b}
+.read-to-me-hint{font-size:.9rem;flex:1 1 180px}
+.auto-turn{padding:12px 14px;background:rgba(25,126,131,.09);border:1px solid #16888e;border-radius:10px;margin-top:14px}
+.auto-turn strong{font-size:1rem}

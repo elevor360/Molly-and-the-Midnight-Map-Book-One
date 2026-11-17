@@ -45,7 +45,7 @@ function setupPageAudio(){
  audioRestart.disabled=!audioAvailable;
  audioSeek.value='0';audioTime.textContent='0:00 / 0:00';
  audioPlay.textContent='▶ Play narration';
- $('autoTurn').checked=autoPageTurn;
+ $('autoTurn').checked=autoPageTurn;updateAutoTurnLabel();
 }
 async function startNarration(){
  const page=audioPage, requestId=++audioRequestId;
@@ -72,7 +72,9 @@ async function startNarration(){
  refreshAudioUI();
 }
 audioPlay.onclick=()=>{if(!pageAudio.paused){pageAudio.pause();continuousReading=false;audioStatus.textContent='Paused';refreshAudioUI();}else{continuousReading=true;startNarration();}};
-$('autoTurn').onchange=e=>{autoPageTurn=e.target.checked;if(!autoPageTurn)continuousReading=false;};
+function updateAutoTurnLabel(){const label=$('autoTurn').parentElement.querySelector('strong');if(label)label.textContent='Auto Page Turn: '+(autoPageTurn?'ON':'OFF');}
+$('autoTurn').onchange=e=>{autoPageTurn=e.target.checked;updateAutoTurnLabel();if(!autoPageTurn)continuousReading=false;};
+$('readToMe').onclick=()=>{autoPageTurn=true;$('autoTurn').checked=true;updateAutoTurnLabel();continuousReading=true;if(pageAudio.paused)startNarration();else{audioStatus.textContent='Continuous reading enabled — next page will play automatically.';}};
 audioRestart.onclick=()=>{if(!audioAvailable)return;continuousReading=true;pageAudio.currentTime=0;startNarration();};
 pageAudio.addEventListener('timeupdate',refreshAudioUI);
 pageAudio.addEventListener('loadedmetadata',refreshAudioUI);
