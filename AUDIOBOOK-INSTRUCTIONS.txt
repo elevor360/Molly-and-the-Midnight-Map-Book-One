@@ -1,0 +1,20 @@
+MOLLY AND THE MIDNIGHT MAP — AUDIOBOOK UPDATE
+
+This is the full website app, with the existing story and pictures preserved.
+The first nine audio recordings are included in the audio/ folder.
+
+TO INSTALL ON GITHUB
+1. Open your existing GitHub Pages repository for this Molly book.
+2. Upload the CONTENTS of this ZIP into the repository root (not the enclosing ZIP folder).
+3. Overwrite index.html, styles.css, app.js, sw.js when GitHub asks.
+4. Upload the entire audio folder, keeping the nine MP3 files inside.
+5. Leave the existing story-data.js and images in place (identical copies are in this ZIP).
+6. After GitHub Pages publishes, open the book online and allow the new offline cache to complete. If an old installed copy persists, close/reopen or refresh the app while online.
+
+TO ADD MORE RECORDINGS
+Name each new file page-10.mp3, page-11.mp3, ... page-50.mp3 (two-digit numbering).
+Upload it into the SAME audio folder on GitHub. The app checks for new files when Play is pressed.
+New recordings are saved for offline playback after they have been played online once.
+The first nine recordings are pre-cached when the updated app installs.
+
+NOTE: Narration does not automatically turn the page. This is intentional so children can read and listen at their own pace.

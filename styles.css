@@ -4,3 +4,14 @@
 #goPage{padding:10px;min-width:40px}.page-nav .jump{margin-left:auto}.page-nav #next{margin-left:auto}
 
 h1{font-size:clamp(37px,4.1vw,59px);line-height:1.12;letter-spacing:-1.5px}.cover-art{background:#183a43}.cover-label{font-size:9px}body[data-theme="night"]{--paper:#18363f;--ink:#e6e9e0}body[data-theme="night"] #page .chapter-kicker,body[data-theme="night"] #page figcaption{color:#a9c4ca}@media(max-width:750px){h1{font-size:39px;letter-spacing:-1px}.cover-art{max-width:300px}.cover-art>img{max-height:none}.deck{font-size:18px}}
+
+/* Optional page-by-page audiobook narration */
+.narration{margin:14px auto 20px;padding:16px;border:1px solid rgba(90,110,110,.3);border-radius:16px;background:rgba(140,170,160,.09);max-width:920px}
+.narration-heading{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:8px;font-weight:700;margin-bottom:12px}
+#audioStatus{font-size:.86rem;font-weight:400;opacity:.8}
+.narration-controls{display:flex;flex-wrap:wrap;align-items:center;gap:10px}
+.narration-controls button{padding:10px 14px;min-height:42px;border-radius:10px;cursor:pointer}
+.narration-controls button:disabled{opacity:.45;cursor:not-allowed}
+.narration-seek{display:flex;align-items:center;gap:8px;flex:1 1 160px;font-size:.86rem}
+#audioSeek{width:100%;min-width:80px;accent-color:#177c84}
+#audioTime{font-variant-numeric:tabular-nums;font-size:.85rem;white-space:nowrap}
