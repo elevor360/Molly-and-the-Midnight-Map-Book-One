@@ -18,3 +18,6 @@ New recordings are saved for offline playback after they have been played online
 The first nine recordings are pre-cached when the updated app installs.
 
 NOTE: Narration does not automatically turn the page. This is intentional so children can read and listen at their own pace.
+
+AUTO PAGE TURN (ON BY DEFAULT)
+When a recording finishes, the book turns to the next page and starts the next MP3 automatically. Uncheck the option under narration controls to listen one page at a time. Playback stops at the first page without a recording. Keep uploading files as audio/page-10.mp3, audio/page-11.mp3, etc. After adding new MP3s, open the app online once to load them for offline use.

@@ -15,3 +15,5 @@ h1{font-size:clamp(37px,4.1vw,59px);line-height:1.12;letter-spacing:-1.5px}.cove
 .narration-seek{display:flex;align-items:center;gap:8px;flex:1 1 160px;font-size:.86rem}
 #audioSeek{width:100%;min-width:80px;accent-color:#177c84}
 #audioTime{font-variant-numeric:tabular-nums;font-size:.85rem;white-space:nowrap}
+
+.auto-turn{display:flex;align-items:center;gap:.55rem;margin:.65rem 0 .1rem;font-size:.94rem;cursor:pointer}.auto-turn input{width:1.1rem;height:1.1rem;accent-color:#158d91}
