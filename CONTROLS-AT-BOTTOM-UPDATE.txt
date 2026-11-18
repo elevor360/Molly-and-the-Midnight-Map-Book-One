@@ -1,0 +1,1 @@
+Book One mobile layout update: story first, controls below the story; auto page turn scrolls to story content. Android MP3 range handling retained.

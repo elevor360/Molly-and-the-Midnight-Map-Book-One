@@ -1,6 +1,6 @@
 'use strict';
 const PREFIX='molly-midnight-map-'+self.registration.scope;
-const CACHE=PREFIX+'v1.3.1-android-audio-range';
+const CACHE=PREFIX+'v1.3.2-controls-below-story';
 const FILES=['./','index.html','styles.css','app.js','story-data.js','story.txt','manifest.webmanifest','assets/cover.webp','assets/map.webp','assets/paperbridge.webp','assets/observatory.webp','assets/repair.webp','assets/door.webp','assets/icon-192.png','assets/icon-512.png','audio/page-01.mp3','audio/page-02.mp3','audio/page-03.mp3','audio/page-04.mp3','audio/page-05.mp3','audio/page-06.mp3','audio/page-07.mp3','audio/page-08.mp3','audio/page-09.mp3'];
 self.addEventListener('install',event=>event.waitUntil((async()=>{const cache=await caches.open(CACHE);await cache.addAll(FILES);await self.skipWaiting();})()));
 self.addEventListener('activate',event=>event.waitUntil((async()=>{for(const name of await caches.keys())if(name.startsWith(PREFIX)&&name!==CACHE)await caches.delete(name);await self.clients.claim();for(const client of await self.clients.matchAll())client.postMessage({type:'BOOK_CACHED'});})()));

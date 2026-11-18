@@ -25,3 +25,7 @@ h1{font-size:clamp(37px,4.1vw,59px);line-height:1.12;letter-spacing:-1.5px}.cove
 .read-to-me-hint{font-size:.9rem;flex:1 1 180px}
 .auto-turn{padding:12px 14px;background:rgba(25,126,131,.09);border:1px solid #16888e;border-radius:10px;margin-top:14px}
 .auto-turn strong{font-size:1rem}
+
+/* Keep the story at the top of the screen after every page turn. */
+#page{scroll-margin-top:12px}
+#reader>.reader-tools{margin-top:12px}
